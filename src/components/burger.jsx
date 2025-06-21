@@ -13,7 +13,7 @@ const BurgerMenu = () => {
     <div className="xl:hidden z-50"> 
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="relative w-[60px] h-[60px] bg-black flex items-center justify-center transition-all duration-300"
+        className="relative w-[55px] h-[55px] bg-black flex items-center justify-center transition-all duration-300"
       >
         <div className="relative w-6 h-6">
           <span
