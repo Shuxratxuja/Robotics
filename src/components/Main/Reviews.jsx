@@ -16,7 +16,7 @@ const Reviews = () => {
       opts={{
         align: "start",
       }}
-      className="w-[300px] ml-2 sm:w-[350px] sm:ml-13 md:w-[550px] md:ml-9 lg:w-[800px] xl:w-[1130px] xl:ml-8 max-w-7xl"
+      className="w-[330px] ml-2 sm:w-[350px] sm:ml-13 md:w-[550px] md:ml-9 lg:w-[750px] xl:w-[1100px] xl:ml-8 max-w-7xl"
     >
       <CarouselContent className='mt-5'>
         {Array.from({ length: 15 }).map((_, index) => (
