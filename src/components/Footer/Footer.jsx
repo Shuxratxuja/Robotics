@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='container mx-auto max-w-7xl flex flex-col sm:flex-row py-6 gap-y-8 px-4 lg:px-0 '>
+    <div className='container mx-auto max-w-7xl flex flex-col sm:flex-row py-6 gap-y-8 px-4 lg:px-0 relative'>
         <div className='flex flex-col items-start sm:flex-col'>
             <div className='background-color:black;border-radius:50%;width:100px;height:100px;display:flex;align-items:center;justify-content:center;margin-bottom:20px'>
                 <LogoIcon/>
@@ -59,6 +59,7 @@ const Footer = () => {
                 </Link>
             </div>
         </div>
+        <p className='font-semibold text-sm leading-[100%] absolute bottom-[-10px]'>Ideallux.com © 2000-2024, All Rights Reserved</p>
     </div>
   )
 }
