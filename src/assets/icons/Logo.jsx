@@ -2,7 +2,7 @@ import React from 'react'
 
 const LogoIcon = () => {
   return (
-  <svg width={111} height={111} viewBox="0 0 111 111" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+  <svg className='flex basis-0 flex-row flex-grow flex-nowrap justify-start bg-transparent items-center no-underline text-medium whitespace-nowrap box-border' width={111} height={111} viewBox="0 0 111 111" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
   <circle cx="55.5" cy="55.5" r="55.5" fill="#FFE000" />
   <rect x={23} y={16} width={65} height={79} fill="url(#pattern0_1_3451)" />
   <defs>

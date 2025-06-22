@@ -19,8 +19,8 @@ const NavigationBar = () => {
             <Link className='text-white font-normal text-2xl leading-[100%]'>Контакты</Link>
             <button className=' bg-[#FFE000]  shadow-[0_0_10px_0_#F0D625,0_0_15px_0_#F0D625,0_0_20px_0_#F0D625] text-black font-bold text-2xl leading-[100%] pt-4 pb-4 pl-[54px] pr-[54px] rounded-[7px] cursor-pointer hover:bg-[#ffe100c8] transition-all duration-300'><Link>Позвонить</Link></button>
         </nav>
-            <div className='flex  items-center gap-4'>
-              <Tabs defaultValue='ru' className='ml-15'>
+            <div className='flex  items-center md:gap-4'>
+              <Tabs defaultValue='ru' className='ml-6 md:ml-15'>
               <TabsList className='bg-transparent flex gap-4'>
                 <TabsTrigger
                   value='uz'
